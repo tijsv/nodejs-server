@@ -1,3 +1,5 @@
+// run script from package.json with the command: npm run NAME SCRIPT
+
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 const app = new express();
