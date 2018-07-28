@@ -2,7 +2,7 @@ const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 const app = new express();
 var router = require('./app/routes.js');
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 // start the server
 app.listen(port, function(){
